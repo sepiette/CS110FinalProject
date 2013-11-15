@@ -1,0 +1,47 @@
+
+import java.util.Random;
+
+public class Deck extends Card
+{
+	private Card [] deck;
+	private Random rand;
+	private int usedCards;
+	
+	/**
+	 * Default Constructor
+	 */
+	public Deck()
+	{
+		this(false);
+	}
+	/**
+	 * determines whether a set of 52 or 54 cards depending on Jokers or not
+	 * @param includeJokers
+	 */
+	public Deck(boolean includeJokers)
+	{
+		//Declare variables
+		int cardCount = 0;	//keeps track of cards in stack
+		
+		if(includeJokers)
+		{
+			deck = new Card[54];
+		}
+		else
+		{
+			deck = new Card[52];
+		}
+		//loop through and add cards to list
+		for (int suit = 0; suit <= 3; suit++)
+		{
+			for(int rank = 0; rank <= 13; rank++)
+			{
+				deck[cardCount] = new Card(suit, rank);
+				cardCount++;
+			}
+		}
+		
+		usedCards = 0;
+		
+	}
+}

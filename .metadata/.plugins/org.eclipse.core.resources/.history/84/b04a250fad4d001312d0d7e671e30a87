@@ -1,0 +1,77 @@
+
+import java.util.Random;
+
+public class Deck extends Card
+{
+	private Card [] deck;
+	private Random rand;
+	private int usedCards;
+	
+	/**
+	 * Default Constructor
+	 */
+	public Deck()
+	{
+		this(false);
+	}
+	/**
+	 * determines whether a set of 52 or 54 cards depending on Jokers or not
+	 * @param includeJokers
+	 */
+	public Deck(boolean includeJokers)
+	{
+		//Declare variables
+		int cardCount = 0;	//keeps track of cards in stack
+		
+		if(includeJokers)
+		{
+			deck = new Card[54];
+		}
+		else
+		{
+			deck = new Card[52];
+		}
+		//loop through and add cards to list
+		for (int suit = 0; suit <= 3; suit++)
+		{
+			for(int rank = 0; rank <= 13; rank++)
+			{
+				deck[cardCount] = new Card(suit, rank);
+				cardCount++;
+			}
+		}
+		if (includeJokers)
+		{
+			deck[52] = new Card(1,Card.JOKER);
+			deck[53] = new Card(2,Card.JOKER);
+		}
+		usedCards = 0;
+		
+	}
+	
+	/**
+	 * cardsLeft method returns how many unused cards are left
+	 * @return Int value of unused cards left
+	 */
+	public int cardsLeft()
+	{
+		return deck.length - usedCards;
+	}
+	
+	/**
+	 * dealCard method gives a card object
+	 * @return Card 
+	 */
+	public Card dealCard()
+	{
+		if (usedCards == deck.length)
+		{
+			throw new ListOutOfBoundsException("there are no cards left.");
+		}
+		else
+		{
+			usedCards++;
+			return deck[usedCards-1];
+		}
+	}
+}

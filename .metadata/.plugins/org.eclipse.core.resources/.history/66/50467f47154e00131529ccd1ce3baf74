@@ -1,0 +1,89 @@
+import java.util.ArrayList;
+
+public class Hand {
+	
+	//Declare fields
+	private int cardCount;
+	private Card [] hand;
+	private static int MAX_CARDS = 5;
+	
+	/**
+	 * Constructor
+	 */
+	public Hand()
+	{
+		
+	}
+	
+	/**
+	 * Clear method discards all cards from hand
+	 */
+	public void clear()
+	{
+		
+	}
+	
+	/**
+	 * Add the card to the hand
+	 * @throws exception if hand is full;
+	 * @param Card to be added to hand
+	 */
+	public void addCard(Card c)
+	{
+		
+	}
+	/**
+	 * Removes specific card c from hand if in hand.
+	 * @param c
+	 */
+	public void removeCard(Card c)
+	{
+		
+	}
+	
+	/**
+	 * removes card at specified index position in hand
+	 * @param pos
+	 */
+	public void removeCard(int pos)
+	{
+		
+	}
+	
+	/**
+	 * 
+	 * @return integer value of cards in hand
+	 */
+	public int getCardCount()
+	{
+		return cardCount;
+	}
+	/**
+	 * gets a card from the hand at specified index position 
+	 * and returns card object
+	 * @param pos
+	 * @return Card at specified index position
+	 */
+	public Card getCard(int pos)
+	{
+		
+	}
+	
+	/**
+	 * Sorts card in a hand of the same suit.
+	 * Within a suit, cards sorted by rank
+	 */
+	public void sortBySuit()
+	{
+		
+	}
+	
+	/**
+	 * cards in hand sorted into order of increasing rank
+	 * Ace is considered the lowest rank card
+	 */
+	public void sortByRank()
+	{
+		
+	}
+}
