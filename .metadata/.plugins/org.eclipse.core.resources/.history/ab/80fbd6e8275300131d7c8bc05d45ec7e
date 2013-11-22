@@ -1,0 +1,56 @@
+import java.util.ArrayList;
+
+
+public class WarGame {
+
+	//Declare variables
+	private StackInterface userCards;
+	private StackInterface compCards;
+	private Deck cardDeck;
+	private Object userCard, compCard;
+	
+	public WarGame()
+	{
+		userCards = new StackList();
+		compCards = new StackList();
+		cardDeck = new Deck();
+
+	}
+	
+	
+	//Divide deck between user and computer
+	public void splitDeck()
+	{
+		for(int i= cardDeck.cardsLeft(); i > 0; i=i-2)
+		{
+			userCards.push(cardDeck.dealCard());
+			compCards.push(cardDeck.dealCard());
+		}
+	}
+	
+	//pop first card in each stack as flip of card
+	public void flipCard()
+	{
+		userCard = userCards.pop();
+		compCard = compCards.pop();
+	}
+	//
+	public Object getUserCard()
+	{
+		return userCard;
+	}
+	public Object getcompCard()
+	{
+		return compCard;
+	}
+	
+	public static void main(String [] args)
+	{
+		WarGame war = new WarGame();
+		
+		war.splitDeck();
+		war.flipCard();
+		System.out.println(war.getUserCard().toString());
+		System.out.println(war.getcompCard().toString());
+	}
+}

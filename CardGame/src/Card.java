@@ -72,7 +72,7 @@ public class Card
       suitToString method
       @return string value of suit selected 
    */
-   private String suitToString()
+   public String suitToString()
    {
       switch(suit)
       {
@@ -108,7 +108,7 @@ public class Card
       rankToString method
       @return string of rank numerical value
    */
-   private String rankToString()
+   public String rankToString()
    {
       if (suit == JOKER)
       {
@@ -185,7 +185,7 @@ public class Card
    
    public String toString()
    {
-      return rankToString()+ " of "+suitToString();
+      return rankToString()+ " of " +suitToString();
    }
   
    /**

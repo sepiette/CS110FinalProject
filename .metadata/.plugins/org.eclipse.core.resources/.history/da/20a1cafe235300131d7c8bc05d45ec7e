@@ -1,0 +1,144 @@
+
+public class LinkedList {
+	 //Declare variables
+	   
+	   private Node head;
+	   private Node curr;
+	   
+	   private int count;
+	  
+	  /**
+	      Constructor
+	  */
+	   public LinkedList()
+	   {
+	      head = null;
+	      count = 0;
+	   }
+
+	 /** return true if the size of the list is 0
+	  */
+	  public boolean isEmpty()
+	  {
+	      //declare variables
+	      boolean empty = true;
+	      if (size() != 0)
+	      {
+	         empty = false;
+	      }
+	      
+	      return empty;
+	  
+	  }
+	  /** return size of list (number of elements in the list
+	  */ 
+	  public int size()
+	  {
+	      return count;
+	  }
+	  /** add specified item at specified index, index is 1 based
+	      @param index, location to add item (1 based)
+	      @param item, data to be added to list 
+	      @throws ListIndexOutOfBoundsException if index <1 or list > size
+	  */
+	  public void add(int index, Object item) 
+	                  throws ListIndexOutOfBoundsException
+	  {
+	      //Create a temporary node to hold the object
+	      Node temp = new Node(item);
+	      
+	      curr = head;
+	      if (curr == null)
+	      {
+	         head = new Node(item,head);
+	         curr = head;
+	         count++;
+	      }
+	      else if (index == 1)
+	      {
+	         head = new Node(item, head);
+	         curr = head;
+	         count++;
+	      }
+	      else
+	      {
+	         
+	         for (int i = 1; i< index && curr.getNext() != null; i++)
+	         {
+	            curr = curr.getNext();
+	         }
+	         
+	         temp.setNext(curr.getNext());
+	         curr.setNext(temp);
+	         
+	         count ++;
+	      }
+	      
+	  }                
+	                                 
+	                  
+	  /** return item at specified index, index is 1 based
+	      @param index - location of requested item
+	      @return data of item at index specified
+	      @throws ListIndexOutOfBoundsException if index <1 or list > size
+	   
+	  */
+	  public Object get(int index) 
+	                  throws ListIndexOutOfBoundsException
+	  {
+	      if (index <= 0)
+	      {
+	         return null;
+	      }
+	      
+	      curr = head;
+	      for(int i = 1; i < index; i++)
+	      {
+	            if (curr.getNext() == null)
+	            {
+	               return null;
+	            }
+	            
+	            curr = curr.getNext();
+	      }
+	      
+	      return curr.getItem();
+	  
+	  }                
+	                  
+	                  
+	                  
+	  /** remove item at specified index, index is 1 based
+	      @param index - location of item to be removed
+	      @throws ListIndexOutOfBoundsException if index <1 or list > size
+	  */
+	  public void remove(int index) 
+	                  throws ListIndexOutOfBoundsException
+	  {
+	      curr = head;
+	      if (index < 1 || index > size())
+	      {
+	         throw new ListIndexOutOfBoundsException("index number is out of bounds.");
+	      }
+	      
+	      for (int i = 1; i< index && curr.getNext() != null; i++)
+	      {
+	         curr = curr.getNext();
+	      }
+	      
+	         curr.setNext(curr.getNext().getNext());
+	         count--;
+	      
+	      
+	       
+	  }
+	  /** remove all items from the list
+	  */ 
+	  public void removeAll()
+	  {
+	      head = new Node(null);
+	      curr = head;
+	      count = 0;
+	  }
+	 }
+

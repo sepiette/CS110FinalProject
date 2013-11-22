@@ -1,0 +1,24 @@
+import java.util.ArrayList;
+
+
+public class WarGame {
+
+	public static void main(String [] args)
+	{
+		//Declare variables
+		ArrayList<Card> userDeck = new ArrayList<Card>();	//Array List that will hold user's cards
+		ArrayList<Card> compDeck = new ArrayList<Card>();	//Array List that will hold computer's cards
+		
+		Deck cardDeck = new Deck();
+		//System.out.println(cardDeck);
+		//Evenly split card deck and add 26 cards to each array
+		for (int i = cardDeck.cardsLeft(); i <= 0; i--)
+		{
+			userDeck.add(cardDeck.dealCard());
+			compDeck.add(cardDeck.dealCard());			
+		}
+		
+		System.out.println(userDeck);
+		System.out.println(compDeck);
+	}
+}
