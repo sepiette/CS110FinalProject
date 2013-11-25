@@ -1,0 +1,156 @@
+import java.util.ArrayList;
+
+public class WarGame {
+
+	//Declare variables
+	private ArrayList<Card> userCards;
+	private ArrayList<Card> compCards;
+	private ArrayList<Card> warCards;
+	private Deck cardDeck;
+	private Card userCard, compCard;
+	/**
+	 * Default Constructor
+	 */
+	public WarGame()
+	{
+		userCards = new ArrayList<Card>();
+		compCards = new ArrayList<Card>();
+		warCards = new ArrayList<Card>();
+		cardDeck = new Deck();
+		
+		splitDeck();
+	}
+	
+	
+	//Divide deck between user and computer
+	/**
+	 * SplitDeck method splits the card deck in half between two players
+	 */
+	public void splitDeck()
+	{
+		
+		while(cardDeck.cardsLeft() != 0)
+		{
+			userCards.add(cardDeck.dealCard());
+			compCards.add(cardDeck.dealCard());
+		}
+	}
+	
+	//pop first card in each stack as flip of card
+	/**
+	 * flipCard method removes a card from each player's list and assigns to card object
+	 */
+	public void flipCard()
+	{
+		if (!userCards.isEmpty() && !compCards.isEmpty())
+		{
+			userCard = userCards.remove((userCards.size())-1);
+			compCard = compCards.remove((compCards.size())-1);
+			compareCards();
+		}
+		else if (userCards.isEmpty() && !compCards.isEmpty())
+		{
+			//Computer Wins
+		}
+		else if(!userCards.isEmpty() && compCards.isEmpty())
+		{
+			//User Wins
+		}
+		else if(userCards.isEmpty() && compCards.isEmpty())
+		{
+			throw new ListIndexOutOfBoundsException ("the arraylist is empty");
+		}
+		
+	}
+	//Compare method
+	public void compareCards()
+	{
+		//add cards to temporary array that will give all cards to winner
+		warCards.add(userCard);
+		warCards.add(compCard);
+		
+		if (userCard.equals(compCard))
+		{
+			war();
+		}
+		else if (userCard.greaterThan(compCard)==true)
+		{
+			for(Card c: warCards)
+			{
+				userCards.add(0,c);
+			}
+		}
+		else 
+		{
+			for(Card c: warCards)
+			{
+				compCards.add(0,c);
+			}
+			
+		}
+	}
+	//War method
+	public void war()
+	{
+		
+		warCards.add(userCards.remove((userCards.size())-1));
+		warCards.add(compCards.remove((compCards.size())-1));
+		flipCard();
+		
+		
+		
+	}
+	//checkWinner method
+	
+	
+	
+	public Object getUserCard()
+	{
+		return userCard;
+	}
+	public Object getCompCard()
+	{
+		return compCard;
+	}
+	
+	
+	/**
+	 * 
+	 * @return Int number of cards left in user's deck
+	 */
+	public int getUserNumCards()
+	{
+		return userCards.size();
+	}
+	/**
+	 * 
+	 * @return Int number of cards left in computer's deck
+	 */
+	public int getCompNumCards()
+	{
+		return compCards.size();
+	}
+
+	
+	
+	
+	
+	public static void main(String [] args)
+	{
+		WarGame war = new WarGame();
+		
+		war.splitDeck();
+		//System.out.println(war.getCompNumCards());
+		//System.out.println(war.getUserNumCards());
+		int count = 0;
+		for (int i = 0; i< 26; i++)
+		{
+			war.flipCard();
+			System.out.println(war.getUserCard());
+			count += 1;
+			System.out.println(war.getCompCard());
+			count+= 1;
+		}
+		System.out.println(count);
+	}
+}

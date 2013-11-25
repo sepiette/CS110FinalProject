@@ -264,3 +264,693 @@ Java Model Exception: Java Model Status [code [in War] is not on its project's b
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1450)
 !SUBENTRY 1 org.eclipse.jdt.core 4 1006 2013-11-21 13:17:58.884
 !MESSAGE code [in War] is not on its project's build path
+!SESSION 2013-11-22 10:53:53.108 -----------------------------------------------
+eclipse.buildId=4.3.0.M20130911-1000
+java.version=1.7.0_25
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/sarapiette/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -keyring /Users/sarapiette/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2013-11-22 10:54:09.902
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.egit.ui 2 0 2013-11-22 10:54:40.871
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2013-11-23 14:21:27.560 -----------------------------------------------
+eclipse.buildId=4.3.0.M20130911-1000
+java.version=1.7.0_25
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/sarapiette/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -keyring /Users/sarapiette/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2013-11-23 14:21:48.998
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.egit.ui 2 0 2013-11-23 14:22:12.508
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2013-11-24 11:30:02.191 -----------------------------------------------
+eclipse.buildId=4.3.0.M20130911-1000
+java.version=1.7.0_25
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/sarapiette/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -keyring /Users/sarapiette/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2013-11-24 11:31:53.267
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.egit.ui 2 0 2013-11-24 11:32:21.808
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.core.resources 2 2 2013-11-24 11:37:05.988
+!MESSAGE Save operation warnings.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2013-11-24 11:37:05.988
+!MESSAGE The project description file (.project) for 'CardGame' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+!SESSION 2013-11-24 18:10:15.334 -----------------------------------------------
+eclipse.buildId=4.3.0.M20130911-1000
+java.version=1.7.0_25
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/sarapiette/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -keyring /Users/sarapiette/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2013-11-24 18:14:32.305
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.egit.ui 2 0 2013-11-24 18:15:08.240
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+!SESSION 2013-11-25 13:54:30.769 -----------------------------------------------
+eclipse.buildId=4.3.0.M20130911-1000
+java.version=1.7.0_25
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/sarapiette/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -keyring /Users/sarapiette/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2013-11-25 13:54:51.924
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.egit.ui 2 0 2013-11-25 13:55:18.943
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.jdt.core 4 4 2013-11-25 13:55:44.253
+!MESSAGE JavaBuilder handling ImageBuilderInternalException while building: WarGame
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while copying resources.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.copy(FileSystemResourceManager.java:313)
+	at org.eclipse.core.internal.resources.Resource.copy(Resource.java:566)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.copyResource(AbstractImageBuilder.java:381)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder$3.visit(BatchImageBuilder.java:222)
+	at org.eclipse.core.internal.resources.Resource$1.visitElement(Resource.java:85)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:82)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.iterate(ElementTreeIterator.java:127)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:95)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:52)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.copyExtraResourcesBack(BatchImageBuilder.java:191)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:119)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:46)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:254)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:184)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:733)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:302)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:358)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:381)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+Contains: Resource '/WarGame/src/images/queens.jpg' does not exist.
+!SUBENTRY 1 org.eclipse.core.resources 4 1 2013-11-25 13:55:44.254
+!MESSAGE Problems encountered while copying resources.
+!SUBENTRY 2 org.eclipse.core.resources 4 368 2013-11-25 13:55:44.254
+!MESSAGE Resource '/WarGame/src/images/queens.jpg' does not exist.
+
+!ENTRY org.eclipse.jdt.core 4 4 2013-11-25 13:55:45.951
+!MESSAGE JavaBuilder handling ImageBuilderInternalException while building: WarGame
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while copying resources.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.copy(FileSystemResourceManager.java:313)
+	at org.eclipse.core.internal.resources.Resource.copy(Resource.java:566)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.copyResource(AbstractImageBuilder.java:381)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder$3.visit(BatchImageBuilder.java:222)
+	at org.eclipse.core.internal.resources.Resource$1.visitElement(Resource.java:85)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:82)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.iterate(ElementTreeIterator.java:127)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:95)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:52)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.copyExtraResourcesBack(BatchImageBuilder.java:191)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:119)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:46)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:254)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:178)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:733)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:302)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:358)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:381)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+Contains: Resource '/WarGame/src/images/queens.jpg' does not exist.
+!SUBENTRY 1 org.eclipse.core.resources 4 1 2013-11-25 13:55:45.952
+!MESSAGE Problems encountered while copying resources.
+!SUBENTRY 2 org.eclipse.core.resources 4 368 2013-11-25 13:55:45.952
+!MESSAGE Resource '/WarGame/src/images/queens.jpg' does not exist.
+
+!ENTRY org.eclipse.jdt.core 4 4 2013-11-25 13:55:46.961
+!MESSAGE JavaBuilder handling ImageBuilderInternalException while building: WarGame
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while copying resources.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.copy(FileSystemResourceManager.java:313)
+	at org.eclipse.core.internal.resources.Resource.copy(Resource.java:566)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.copyResource(AbstractImageBuilder.java:381)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder$3.visit(BatchImageBuilder.java:222)
+	at org.eclipse.core.internal.resources.Resource$1.visitElement(Resource.java:85)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:82)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.iterate(ElementTreeIterator.java:127)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:95)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:52)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.copyExtraResourcesBack(BatchImageBuilder.java:191)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:119)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:46)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:254)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:178)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:733)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:302)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:358)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:381)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+Contains: Resource '/WarGame/src/images/queens.jpg' does not exist.
+!SUBENTRY 1 org.eclipse.core.resources 4 1 2013-11-25 13:55:46.962
+!MESSAGE Problems encountered while copying resources.
+!SUBENTRY 2 org.eclipse.core.resources 4 368 2013-11-25 13:55:46.962
+!MESSAGE Resource '/WarGame/src/images/queens.jpg' does not exist.
+
+!ENTRY org.eclipse.jdt.core 4 4 2013-11-25 13:56:40.420
+!MESSAGE JavaBuilder handling ImageBuilderInternalException while building: WarGame
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while copying resources.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.copy(FileSystemResourceManager.java:313)
+	at org.eclipse.core.internal.resources.Resource.copy(Resource.java:566)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.copyResource(AbstractImageBuilder.java:381)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder$3.visit(BatchImageBuilder.java:222)
+	at org.eclipse.core.internal.resources.Resource$1.visitElement(Resource.java:85)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:82)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.iterate(ElementTreeIterator.java:127)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:95)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:52)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.copyExtraResourcesBack(BatchImageBuilder.java:191)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:119)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:46)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:254)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:178)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:733)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:302)
+	at org.eclipse.core.internal.events.BuildManager.basicBuildLoop(BuildManager.java:358)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:381)
+	at org.eclipse.core.internal.events.AutoBuildJob.doBuild(AutoBuildJob.java:143)
+	at org.eclipse.core.internal.events.AutoBuildJob.run(AutoBuildJob.java:241)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+Contains: Resource '/WarGame/src/images/queens.jpg' does not exist.
+!SUBENTRY 1 org.eclipse.core.resources 4 1 2013-11-25 13:56:40.420
+!MESSAGE Problems encountered while copying resources.
+!SUBENTRY 2 org.eclipse.core.resources 4 368 2013-11-25 13:56:40.421
+!MESSAGE Resource '/WarGame/src/images/queens.jpg' does not exist.
+
+!ENTRY org.eclipse.jdt.core 4 4 2013-11-25 13:57:08.470
+!MESSAGE JavaBuilder handling ImageBuilderInternalException while building: WarGame
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while copying resources.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.copy(FileSystemResourceManager.java:313)
+	at org.eclipse.core.internal.resources.Resource.copy(Resource.java:566)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.copyResource(AbstractImageBuilder.java:381)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder$3.visit(BatchImageBuilder.java:222)
+	at org.eclipse.core.internal.resources.Resource$1.visitElement(Resource.java:85)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:82)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.iterate(ElementTreeIterator.java:127)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:95)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:52)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.copyExtraResourcesBack(BatchImageBuilder.java:191)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:119)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:46)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:254)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:178)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:733)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:302)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:401)
+	at org.eclipse.core.internal.resources.Project$1.run(Project.java:618)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2345)
+	at org.eclipse.core.internal.resources.Project.internalBuild(Project.java:597)
+	at org.eclipse.core.internal.resources.Project.build(Project.java:114)
+	at org.eclipse.debug.core.model.LaunchConfigurationDelegate$1.run(LaunchConfigurationDelegate.java:423)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2345)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2327)
+	at org.eclipse.debug.core.model.LaunchConfigurationDelegate.buildProjects(LaunchConfigurationDelegate.java:430)
+	at org.eclipse.debug.core.model.LaunchConfigurationDelegate.buildForLaunch(LaunchConfigurationDelegate.java:126)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:826)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+Contains: Resource '/WarGame/src/images/queens.jpg' does not exist.
+!SUBENTRY 1 org.eclipse.core.resources 4 1 2013-11-25 13:57:08.471
+!MESSAGE Problems encountered while copying resources.
+!SUBENTRY 2 org.eclipse.core.resources 4 368 2013-11-25 13:57:08.471
+!MESSAGE Resource '/WarGame/src/images/queens.jpg' does not exist.
+
+!ENTRY org.eclipse.jdt.core 4 4 2013-11-25 13:57:35.672
+!MESSAGE JavaBuilder handling ImageBuilderInternalException while building: WarGame
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while copying resources.
+	at org.eclipse.core.internal.localstore.FileSystemResourceManager.copy(FileSystemResourceManager.java:313)
+	at org.eclipse.core.internal.resources.Resource.copy(Resource.java:566)
+	at org.eclipse.jdt.internal.core.builder.AbstractImageBuilder.copyResource(AbstractImageBuilder.java:381)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder$3.visit(BatchImageBuilder.java:222)
+	at org.eclipse.core.internal.resources.Resource$1.visitElement(Resource.java:85)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:82)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.doIteration(ElementTreeIterator.java:86)
+	at org.eclipse.core.internal.watson.ElementTreeIterator.iterate(ElementTreeIterator.java:127)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:95)
+	at org.eclipse.core.internal.resources.Resource.accept(Resource.java:52)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.copyExtraResourcesBack(BatchImageBuilder.java:191)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.cleanOutputFolders(BatchImageBuilder.java:119)
+	at org.eclipse.jdt.internal.core.builder.BatchImageBuilder.build(BatchImageBuilder.java:46)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.buildAll(JavaBuilder.java:254)
+	at org.eclipse.jdt.internal.core.builder.JavaBuilder.build(JavaBuilder.java:178)
+	at org.eclipse.core.internal.events.BuildManager$2.run(BuildManager.java:733)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:206)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:246)
+	at org.eclipse.core.internal.events.BuildManager$1.run(BuildManager.java:299)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:302)
+	at org.eclipse.core.internal.events.BuildManager.basicBuild(BuildManager.java:263)
+	at org.eclipse.core.internal.events.BuildManager.build(BuildManager.java:401)
+	at org.eclipse.core.internal.resources.Project$1.run(Project.java:618)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2345)
+	at org.eclipse.core.internal.resources.Project.internalBuild(Project.java:597)
+	at org.eclipse.core.internal.resources.Project.build(Project.java:114)
+	at org.eclipse.debug.core.model.LaunchConfigurationDelegate$1.run(LaunchConfigurationDelegate.java:423)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2345)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2327)
+	at org.eclipse.debug.core.model.LaunchConfigurationDelegate.buildProjects(LaunchConfigurationDelegate.java:430)
+	at org.eclipse.debug.core.model.LaunchConfigurationDelegate.buildForLaunch(LaunchConfigurationDelegate.java:126)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:826)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:707)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1018)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1222)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+Contains: Resource '/WarGame/src/images/queens.jpg' does not exist.
+!SUBENTRY 1 org.eclipse.core.resources 4 1 2013-11-25 13:57:35.673
+!MESSAGE Problems encountered while copying resources.
+!SUBENTRY 2 org.eclipse.core.resources 4 368 2013-11-25 13:57:35.673
+!MESSAGE Resource '/WarGame/src/images/queens.jpg' does not exist.
+
+!ENTRY org.eclipse.jdt.core 4 0 2013-11-25 15:30:51.229
+!MESSAGE Invalid ZIP archive: images/cardpics/images/10h.jpg [in WarGame]
+
+!ENTRY org.eclipse.jst.jsp.core 2 2 2013-11-25 15:30:53.044
+!MESSAGE Taglib Index ZipException: /Users/sarapiette/Desktop/CS 110/CS110FinalProject/WarGame/images/cardpics/images/10h.jpg error in opening zip file
+
+!ENTRY org.eclipse.jdt.core 4 0 2013-11-25 15:30:54.400
+!MESSAGE Invalid ZIP archive: images/cardpics/images/10h.jpg [in WarGame]
+
+!ENTRY org.eclipse.jdt.core 4 0 2013-11-25 15:32:20.878
+!MESSAGE Invalid ZIP archive: images/cardpics/images/10c.jpg [in WarGame]
+
+!ENTRY org.eclipse.jdt.core 4 0 2013-11-25 15:32:20.904
+!MESSAGE Invalid ZIP archive: images/cardpics/images/10d.jpg [in WarGame]
+
+!ENTRY org.eclipse.jdt.core 4 0 2013-11-25 15:32:20.904
+!MESSAGE Invalid ZIP archive: images/cardpics/images/10h.jpg [in WarGame]
+
+!ENTRY org.eclipse.jdt.core 4 0 2013-11-25 15:32:20.982
+!MESSAGE Invalid ZIP archive: images/cardpics/images/10s.jpg [in WarGame]
+
+!ENTRY org.eclipse.jdt.core 4 0 2013-11-25 15:32:20.982
+!MESSAGE Invalid ZIP archive: images/cardpics/images/2c.jpg [in WarGame]
+
+!ENTRY org.eclipse.jdt.core 4 0 2013-11-25 15:32:20.984
+!MESSAGE Invalid ZIP archive: images/cardpics/images/2d.jpg [in WarGame]
+
+!ENTRY org.eclipse.jdt.core 4 0 2013-11-25 15:32:20.988
+!MESSAGE Invalid ZIP archive: images/cardpics/images/2h.jpg [in WarGame]
+
+!ENTRY org.eclipse.jdt.core 4 0 2013-11-25 15:32:20.991
+!MESSAGE Invalid ZIP archive: images/cardpics/images/2s.jpg [in WarGame]
+
+!ENTRY org.eclipse.jdt.core 4 0 2013-11-25 15:32:20.992
+!MESSAGE Invalid ZIP archive: images/cardpics/images/3c.jpg [in WarGame]
+
+!ENTRY org.eclipse.jdt.core 4 0 2013-11-25 15:32:20.992
+!MESSAGE Invalid ZIP archive: images/cardpics/images/3d.jpg [in WarGame]
+
+!ENTRY org.eclipse.jdt.core 4 0 2013-11-25 15:32:20.992
+!MESSAGE Invalid ZIP archive: images/cardpics/images/3h.jpg [in WarGame]
+
+!ENTRY org.eclipse.jdt.core 4 0 2013-11-25 15:32:20.993
+!MESSAGE Invalid ZIP archive: images/cardpics/images/3s.jpg [in WarGame]
+
+!ENTRY org.eclipse.jdt.core 4 0 2013-11-25 15:32:20.993
+!MESSAGE Invalid ZIP archive: images/cardpics/images/4c.jpg [in WarGame]
+
+!ENTRY org.eclipse.jdt.core 4 0 2013-11-25 15:32:20.994
+!MESSAGE Invalid ZIP archive: images/cardpics/images/4d.jpg [in WarGame]
+
+!ENTRY org.eclipse.jdt.core 4 0 2013-11-25 15:32:20.994
+!MESSAGE Invalid ZIP archive: images/cardpics/images/4h.jpg [in WarGame]
+
+!ENTRY org.eclipse.jdt.core 4 0 2013-11-25 15:32:20.994
+!MESSAGE Invalid ZIP archive: images/cardpics/images/4s.jpg [in WarGame]
+
+!ENTRY org.eclipse.jdt.core 4 0 2013-11-25 15:32:20.995
+!MESSAGE Invalid ZIP archive: images/cardpics/images/5c.jpg [in WarGame]
+
+!ENTRY org.eclipse.jdt.core 4 0 2013-11-25 15:32:20.995
+!MESSAGE Invalid ZIP archive: images/cardpics/images/5d.jpg [in WarGame]
+
+!ENTRY org.eclipse.jdt.core 4 0 2013-11-25 15:32:20.995
+!MESSAGE Invalid ZIP archive: images/cardpics/images/5h.jpg [in WarGame]
+
+!ENTRY org.eclipse.jdt.core 4 0 2013-11-25 15:32:20.996
+!MESSAGE Invalid ZIP archive: images/cardpics/images/5s.jpg [in WarGame]
+
+!ENTRY org.eclipse.jdt.core 4 0 2013-11-25 15:32:20.996
+!MESSAGE Invalid ZIP archive: images/cardpics/images/6c.jpg [in WarGame]
+
+!ENTRY org.eclipse.jdt.core 4 0 2013-11-25 15:32:20.996
+!MESSAGE Invalid ZIP archive: images/cardpics/images/6d.jpg [in WarGame]
+
+!ENTRY org.eclipse.jdt.core 4 0 2013-11-25 15:32:20.997
+!MESSAGE Invalid ZIP archive: images/cardpics/images/6h.jpg [in WarGame]
+
+!ENTRY org.eclipse.jdt.core 4 0 2013-11-25 15:32:20.997
+!MESSAGE Invalid ZIP archive: images/cardpics/images/6s.jpg [in WarGame]
+
+!ENTRY org.eclipse.jdt.core 4 0 2013-11-25 15:32:20.998
+!MESSAGE Invalid ZIP archive: images/cardpics/images/7c.jpg [in WarGame]
+
+!ENTRY org.eclipse.jdt.core 4 0 2013-11-25 15:32:20.998
+!MESSAGE Invalid ZIP archive: images/cardpics/images/7d.jpg [in WarGame]
+
+!ENTRY org.eclipse.jdt.core 4 0 2013-11-25 15:32:20.998
+!MESSAGE Invalid ZIP archive: images/cardpics/images/7h.jpg [in WarGame]
+
+!ENTRY org.eclipse.jdt.core 4 0 2013-11-25 15:32:20.998
+!MESSAGE Invalid ZIP archive: images/cardpics/images/7s.jpg [in WarGame]
+
+!ENTRY org.eclipse.jdt.core 4 0 2013-11-25 15:32:20.999
+!MESSAGE Invalid ZIP archive: images/cardpics/images/8c.jpg [in WarGame]
+
+!ENTRY org.eclipse.jdt.core 4 0 2013-11-25 15:32:20.999
+!MESSAGE Invalid ZIP archive: images/cardpics/images/8d.jpg [in WarGame]
+
+!ENTRY org.eclipse.jdt.core 4 0 2013-11-25 15:32:20.999
+!MESSAGE Invalid ZIP archive: images/cardpics/images/8h.jpg [in WarGame]
+
+!ENTRY org.eclipse.jdt.core 4 0 2013-11-25 15:32:21.000
+!MESSAGE Invalid ZIP archive: images/cardpics/images/8s.jpg [in WarGame]
+
+!ENTRY org.eclipse.jdt.core 4 0 2013-11-25 15:32:21.000
+!MESSAGE Invalid ZIP archive: images/cardpics/images/9c.jpg [in WarGame]
+
+!ENTRY org.eclipse.jdt.core 4 0 2013-11-25 15:32:21.000
+!MESSAGE Invalid ZIP archive: images/cardpics/images/9d.jpg [in WarGame]
+
+!ENTRY org.eclipse.jdt.core 4 0 2013-11-25 15:32:21.001
+!MESSAGE Invalid ZIP archive: images/cardpics/images/9h.jpg [in WarGame]
+
+!ENTRY org.eclipse.jdt.core 4 0 2013-11-25 15:32:21.001
+!MESSAGE Invalid ZIP archive: images/cardpics/images/9s.jpg [in WarGame]
+
+!ENTRY org.eclipse.jdt.core 4 0 2013-11-25 15:32:21.001
+!MESSAGE Invalid ZIP archive: images/cardpics/images/acec.jpg [in WarGame]
+
+!ENTRY org.eclipse.jdt.core 4 0 2013-11-25 15:32:21.002
+!MESSAGE Invalid ZIP archive: images/cardpics/images/aced.jpg [in WarGame]
+
+!ENTRY org.eclipse.jdt.core 4 0 2013-11-25 15:32:21.002
+!MESSAGE Invalid ZIP archive: images/cardpics/images/aceh.jpg [in WarGame]
+
+!ENTRY org.eclipse.jdt.core 4 0 2013-11-25 15:32:21.002
+!MESSAGE Invalid ZIP archive: images/cardpics/images/aces.jpg [in WarGame]
+
+!ENTRY org.eclipse.jdt.core 4 0 2013-11-25 15:32:21.003
+!MESSAGE Invalid ZIP archive: images/cardpics/images/back.jpg [in WarGame]
+
+!ENTRY org.eclipse.jdt.core 4 0 2013-11-25 15:32:21.003
+!MESSAGE Invalid ZIP archive: images/cardpics/images/jackc.jpg [in WarGame]
+
+!ENTRY org.eclipse.jdt.core 4 0 2013-11-25 15:32:21.003
+!MESSAGE Invalid ZIP archive: images/cardpics/images/jackd.jpg [in WarGame]
+
+!ENTRY org.eclipse.jdt.core 4 0 2013-11-25 15:32:21.004
+!MESSAGE Invalid ZIP archive: images/cardpics/images/jackh.jpg [in WarGame]
+
+!ENTRY org.eclipse.jdt.core 4 0 2013-11-25 15:32:21.004
+!MESSAGE Invalid ZIP archive: images/cardpics/images/jacks.jpg [in WarGame]
+
+!ENTRY org.eclipse.jdt.core 4 0 2013-11-25 15:32:21.004
+!MESSAGE Invalid ZIP archive: images/cardpics/images/joker.jpg [in WarGame]
+
+!ENTRY org.eclipse.jdt.core 4 0 2013-11-25 15:32:21.005
+!MESSAGE Invalid ZIP archive: images/cardpics/images/kingc.jpg [in WarGame]
+
+!ENTRY org.eclipse.jdt.core 4 0 2013-11-25 15:32:21.005
+!MESSAGE Invalid ZIP archive: images/cardpics/images/kingd.jpg [in WarGame]
+
+!ENTRY org.eclipse.jdt.core 4 0 2013-11-25 15:32:21.005
+!MESSAGE Invalid ZIP archive: images/cardpics/images/kingh.jpg [in WarGame]
+
+!ENTRY org.eclipse.jdt.core 4 0 2013-11-25 15:32:21.006
+!MESSAGE Invalid ZIP archive: images/cardpics/images/kings.jpg [in WarGame]
+
+!ENTRY org.eclipse.jdt.core 4 0 2013-11-25 15:32:21.006
+!MESSAGE Invalid ZIP archive: images/cardpics/images/queenc.jpg [in WarGame]
+
+!ENTRY org.eclipse.jdt.core 4 0 2013-11-25 15:32:21.007
+!MESSAGE Invalid ZIP archive: images/cardpics/images/queend.jpg [in WarGame]
+
+!ENTRY org.eclipse.jdt.core 4 0 2013-11-25 15:32:21.007
+!MESSAGE Invalid ZIP archive: images/cardpics/images/queenh.jpg [in WarGame]
+
+!ENTRY org.eclipse.jdt.core 4 0 2013-11-25 15:32:21.007
+!MESSAGE Invalid ZIP archive: images/cardpics/images/queens.jpg [in WarGame]
+
+!ENTRY org.eclipse.jst.jsp.core 2 2 2013-11-25 15:32:22.406
+!MESSAGE Taglib Index ZipException: /Users/sarapiette/Desktop/CS 110/CS110FinalProject/WarGame/images/cardpics/images/10h.jpg error in opening zip file
+
+!ENTRY org.eclipse.jst.jsp.core 2 2 2013-11-25 15:32:22.407
+!MESSAGE Taglib Index ZipException: /Users/sarapiette/Desktop/CS 110/CS110FinalProject/WarGame/images/cardpics/images/3h.jpg error in opening zip file
+
+!ENTRY org.eclipse.jst.jsp.core 2 2 2013-11-25 15:32:22.408
+!MESSAGE Taglib Index ZipException: /Users/sarapiette/Desktop/CS 110/CS110FinalProject/WarGame/images/cardpics/images/4d.jpg error in opening zip file
+
+!ENTRY org.eclipse.jst.jsp.core 2 2 2013-11-25 15:32:22.409
+!MESSAGE Taglib Index ZipException: /Users/sarapiette/Desktop/CS 110/CS110FinalProject/WarGame/images/cardpics/images/queens.jpg error in opening zip file
+
+!ENTRY org.eclipse.jst.jsp.core 2 2 2013-11-25 15:32:22.409
+!MESSAGE Taglib Index ZipException: /Users/sarapiette/Desktop/CS 110/CS110FinalProject/WarGame/images/cardpics/images/jacks.jpg error in opening zip file
+
+!ENTRY org.eclipse.jst.jsp.core 2 2 2013-11-25 15:32:22.410
+!MESSAGE Taglib Index ZipException: /Users/sarapiette/Desktop/CS 110/CS110FinalProject/WarGame/images/cardpics/images/2h.jpg error in opening zip file
+
+!ENTRY org.eclipse.jst.jsp.core 2 2 2013-11-25 15:32:22.410
+!MESSAGE Taglib Index ZipException: /Users/sarapiette/Desktop/CS 110/CS110FinalProject/WarGame/images/cardpics/images/6c.jpg error in opening zip file
+
+!ENTRY org.eclipse.jst.jsp.core 2 2 2013-11-25 15:32:22.411
+!MESSAGE Taglib Index ZipException: /Users/sarapiette/Desktop/CS 110/CS110FinalProject/WarGame/images/cardpics/images/kings.jpg error in opening zip file
+
+!ENTRY org.eclipse.jst.jsp.core 2 2 2013-11-25 15:32:22.411
+!MESSAGE Taglib Index ZipException: /Users/sarapiette/Desktop/CS 110/CS110FinalProject/WarGame/images/cardpics/images/9h.jpg error in opening zip file
+
+!ENTRY org.eclipse.jst.jsp.core 2 2 2013-11-25 15:32:22.412
+!MESSAGE Taglib Index ZipException: /Users/sarapiette/Desktop/CS 110/CS110FinalProject/WarGame/images/cardpics/images/6d.jpg error in opening zip file
+
+!ENTRY org.eclipse.jst.jsp.core 2 2 2013-11-25 15:32:22.412
+!MESSAGE Taglib Index ZipException: /Users/sarapiette/Desktop/CS 110/CS110FinalProject/WarGame/images/cardpics/images/5s.jpg error in opening zip file
+
+!ENTRY org.eclipse.jst.jsp.core 2 2 2013-11-25 15:32:22.413
+!MESSAGE Taglib Index ZipException: /Users/sarapiette/Desktop/CS 110/CS110FinalProject/WarGame/images/cardpics/images/queend.jpg error in opening zip file
+
+!ENTRY org.eclipse.jst.jsp.core 2 2 2013-11-25 15:32:22.413
+!MESSAGE Taglib Index ZipException: /Users/sarapiette/Desktop/CS 110/CS110FinalProject/WarGame/images/cardpics/images/7s.jpg error in opening zip file
+
+!ENTRY org.eclipse.jst.jsp.core 2 2 2013-11-25 15:32:22.414
+!MESSAGE Taglib Index ZipException: /Users/sarapiette/Desktop/CS 110/CS110FinalProject/WarGame/images/cardpics/images/6h.jpg error in opening zip file
+
+!ENTRY org.eclipse.jst.jsp.core 2 2 2013-11-25 15:32:22.414
+!MESSAGE Taglib Index ZipException: /Users/sarapiette/Desktop/CS 110/CS110FinalProject/WarGame/images/cardpics/images/aces.jpg error in opening zip file
+
+!ENTRY org.eclipse.jst.jsp.core 2 2 2013-11-25 15:32:22.415
+!MESSAGE Taglib Index ZipException: /Users/sarapiette/Desktop/CS 110/CS110FinalProject/WarGame/images/cardpics/images/4h.jpg error in opening zip file
+
+!ENTRY org.eclipse.jst.jsp.core 2 2 2013-11-25 15:32:22.415
+!MESSAGE Taglib Index ZipException: /Users/sarapiette/Desktop/CS 110/CS110FinalProject/WarGame/images/cardpics/images/2s.jpg error in opening zip file
+
+!ENTRY org.eclipse.jst.jsp.core 2 2 2013-11-25 15:32:22.416
+!MESSAGE Taglib Index ZipException: /Users/sarapiette/Desktop/CS 110/CS110FinalProject/WarGame/images/cardpics/images/jackh.jpg error in opening zip file
+
+!ENTRY org.eclipse.jst.jsp.core 2 2 2013-11-25 15:32:22.416
+!MESSAGE Taglib Index ZipException: /Users/sarapiette/Desktop/CS 110/CS110FinalProject/WarGame/images/cardpics/images/4c.jpg error in opening zip file
+
+!ENTRY org.eclipse.jst.jsp.core 2 2 2013-11-25 15:32:22.417
+!MESSAGE Taglib Index ZipException: /Users/sarapiette/Desktop/CS 110/CS110FinalProject/WarGame/images/cardpics/images/aceh.jpg error in opening zip file
+
+!ENTRY org.eclipse.jst.jsp.core 2 2 2013-11-25 15:32:22.417
+!MESSAGE Taglib Index ZipException: /Users/sarapiette/Desktop/CS 110/CS110FinalProject/WarGame/images/cardpics/images/5d.jpg error in opening zip file
+
+!ENTRY org.eclipse.jst.jsp.core 2 2 2013-11-25 15:32:22.418
+!MESSAGE Taglib Index ZipException: /Users/sarapiette/Desktop/CS 110/CS110FinalProject/WarGame/images/cardpics/images/kingd.jpg error in opening zip file
+
+!ENTRY org.eclipse.jst.jsp.core 2 2 2013-11-25 15:32:22.419
+!MESSAGE Taglib Index ZipException: /Users/sarapiette/Desktop/CS 110/CS110FinalProject/WarGame/images/cardpics/images/5c.jpg error in opening zip file
+
+!ENTRY org.eclipse.jst.jsp.core 2 2 2013-11-25 15:32:22.419
+!MESSAGE Taglib Index ZipException: /Users/sarapiette/Desktop/CS 110/CS110FinalProject/WarGame/images/cardpics/images/7d.jpg error in opening zip file
+
+!ENTRY org.eclipse.jst.jsp.core 2 2 2013-11-25 15:32:22.420
+!MESSAGE Taglib Index ZipException: /Users/sarapiette/Desktop/CS 110/CS110FinalProject/WarGame/images/cardpics/images/9s.jpg error in opening zip file
+
+!ENTRY org.eclipse.jst.jsp.core 2 2 2013-11-25 15:32:22.420
+!MESSAGE Taglib Index ZipException: /Users/sarapiette/Desktop/CS 110/CS110FinalProject/WarGame/images/cardpics/images/6s.jpg error in opening zip file
+
+!ENTRY org.eclipse.jst.jsp.core 2 2 2013-11-25 15:32:22.420
+!MESSAGE Taglib Index ZipException: /Users/sarapiette/Desktop/CS 110/CS110FinalProject/WarGame/images/cardpics/images/10c.jpg error in opening zip file
+
+!ENTRY org.eclipse.jst.jsp.core 2 2 2013-11-25 15:32:22.421
+!MESSAGE Taglib Index ZipException: /Users/sarapiette/Desktop/CS 110/CS110FinalProject/WarGame/images/cardpics/images/2d.jpg error in opening zip file
+
+!ENTRY org.eclipse.jst.jsp.core 2 2 2013-11-25 15:32:22.421
+!MESSAGE Taglib Index ZipException: /Users/sarapiette/Desktop/CS 110/CS110FinalProject/WarGame/images/cardpics/images/8c.jpg error in opening zip file
+
+!ENTRY org.eclipse.jst.jsp.core 2 2 2013-11-25 15:32:22.422
+!MESSAGE Taglib Index ZipException: /Users/sarapiette/Desktop/CS 110/CS110FinalProject/WarGame/images/cardpics/images/jackd.jpg error in opening zip file
+
+!ENTRY org.eclipse.jst.jsp.core 2 2 2013-11-25 15:32:22.422
+!MESSAGE Taglib Index ZipException: /Users/sarapiette/Desktop/CS 110/CS110FinalProject/WarGame/images/cardpics/images/2c.jpg error in opening zip file
+
+!ENTRY org.eclipse.jst.jsp.core 2 2 2013-11-25 15:32:22.422
+!MESSAGE Taglib Index ZipException: /Users/sarapiette/Desktop/CS 110/CS110FinalProject/WarGame/images/cardpics/images/joker.jpg error in opening zip file
+
+!ENTRY org.eclipse.jst.jsp.core 2 2 2013-11-25 15:32:22.423
+!MESSAGE Taglib Index ZipException: /Users/sarapiette/Desktop/CS 110/CS110FinalProject/WarGame/images/cardpics/images/back.jpg error in opening zip file
+
+!ENTRY org.eclipse.jst.jsp.core 2 2 2013-11-25 15:32:22.423
+!MESSAGE Taglib Index ZipException: /Users/sarapiette/Desktop/CS 110/CS110FinalProject/WarGame/images/cardpics/images/acec.jpg error in opening zip file
+
+!ENTRY org.eclipse.jst.jsp.core 2 2 2013-11-25 15:32:22.424
+!MESSAGE Taglib Index ZipException: /Users/sarapiette/Desktop/CS 110/CS110FinalProject/WarGame/images/cardpics/images/10d.jpg error in opening zip file
+
+!ENTRY org.eclipse.jst.jsp.core 2 2 2013-11-25 15:32:22.424
+!MESSAGE Taglib Index ZipException: /Users/sarapiette/Desktop/CS 110/CS110FinalProject/WarGame/images/cardpics/images/7h.jpg error in opening zip file
+
+!ENTRY org.eclipse.jst.jsp.core 2 2 2013-11-25 15:32:22.425
+!MESSAGE Taglib Index ZipException: /Users/sarapiette/Desktop/CS 110/CS110FinalProject/WarGame/images/cardpics/images/3c.jpg error in opening zip file
+
+!ENTRY org.eclipse.jst.jsp.core 2 2 2013-11-25 15:32:22.425
+!MESSAGE Taglib Index ZipException: /Users/sarapiette/Desktop/CS 110/CS110FinalProject/WarGame/images/cardpics/images/8d.jpg error in opening zip file
+
+!ENTRY org.eclipse.jst.jsp.core 2 2 2013-11-25 15:32:22.426
+!MESSAGE Taglib Index ZipException: /Users/sarapiette/Desktop/CS 110/CS110FinalProject/WarGame/images/cardpics/images/queenc.jpg error in opening zip file
+
+!ENTRY org.eclipse.jst.jsp.core 2 2 2013-11-25 15:32:22.426
+!MESSAGE Taglib Index ZipException: /Users/sarapiette/Desktop/CS 110/CS110FinalProject/WarGame/images/cardpics/images/queenh.jpg error in opening zip file
+
+!ENTRY org.eclipse.jst.jsp.core 2 2 2013-11-25 15:32:22.427
+!MESSAGE Taglib Index ZipException: /Users/sarapiette/Desktop/CS 110/CS110FinalProject/WarGame/images/cardpics/images/5h.jpg error in opening zip file
+
+!ENTRY org.eclipse.jst.jsp.core 2 2 2013-11-25 15:32:22.427
+!MESSAGE Taglib Index ZipException: /Users/sarapiette/Desktop/CS 110/CS110FinalProject/WarGame/images/cardpics/images/kingh.jpg error in opening zip file
+
+!ENTRY org.eclipse.jst.jsp.core 2 2 2013-11-25 15:32:22.428
+!MESSAGE Taglib Index ZipException: /Users/sarapiette/Desktop/CS 110/CS110FinalProject/WarGame/images/cardpics/images/8h.jpg error in opening zip file
+
+!ENTRY org.eclipse.jst.jsp.core 2 2 2013-11-25 15:32:22.428
+!MESSAGE Taglib Index ZipException: /Users/sarapiette/Desktop/CS 110/CS110FinalProject/WarGame/images/cardpics/images/9c.jpg error in opening zip file
+
+!ENTRY org.eclipse.jst.jsp.core 2 2 2013-11-25 15:32:22.429
+!MESSAGE Taglib Index ZipException: /Users/sarapiette/Desktop/CS 110/CS110FinalProject/WarGame/images/cardpics/images/9d.jpg error in opening zip file
+
+!ENTRY org.eclipse.jst.jsp.core 2 2 2013-11-25 15:32:22.430
+!MESSAGE Taglib Index ZipException: /Users/sarapiette/Desktop/CS 110/CS110FinalProject/WarGame/images/cardpics/images/kingc.jpg error in opening zip file
+
+!ENTRY org.eclipse.jst.jsp.core 2 2 2013-11-25 15:32:22.430
+!MESSAGE Taglib Index ZipException: /Users/sarapiette/Desktop/CS 110/CS110FinalProject/WarGame/images/cardpics/images/3d.jpg error in opening zip file
+
+!ENTRY org.eclipse.jst.jsp.core 2 2 2013-11-25 15:32:22.431
+!MESSAGE Taglib Index ZipException: /Users/sarapiette/Desktop/CS 110/CS110FinalProject/WarGame/images/cardpics/images/8s.jpg error in opening zip file
+
+!ENTRY org.eclipse.jst.jsp.core 2 2 2013-11-25 15:32:22.431
+!MESSAGE Taglib Index ZipException: /Users/sarapiette/Desktop/CS 110/CS110FinalProject/WarGame/images/cardpics/images/aced.jpg error in opening zip file
+
+!ENTRY org.eclipse.jst.jsp.core 2 2 2013-11-25 15:32:22.431
+!MESSAGE Taglib Index ZipException: /Users/sarapiette/Desktop/CS 110/CS110FinalProject/WarGame/images/cardpics/images/3s.jpg error in opening zip file
+
+!ENTRY org.eclipse.jst.jsp.core 2 2 2013-11-25 15:32:22.432
+!MESSAGE Taglib Index ZipException: /Users/sarapiette/Desktop/CS 110/CS110FinalProject/WarGame/images/cardpics/images/jackc.jpg error in opening zip file
+
+!ENTRY org.eclipse.jst.jsp.core 2 2 2013-11-25 15:32:22.432
+!MESSAGE Taglib Index ZipException: /Users/sarapiette/Desktop/CS 110/CS110FinalProject/WarGame/images/cardpics/images/4s.jpg error in opening zip file
+
+!ENTRY org.eclipse.jst.jsp.core 2 2 2013-11-25 15:32:22.433
+!MESSAGE Taglib Index ZipException: /Users/sarapiette/Desktop/CS 110/CS110FinalProject/WarGame/images/cardpics/images/10s.jpg error in opening zip file
+
+!ENTRY org.eclipse.jst.jsp.core 2 2 2013-11-25 15:32:22.433
+!MESSAGE Taglib Index ZipException: /Users/sarapiette/Desktop/CS 110/CS110FinalProject/WarGame/images/cardpics/images/7c.jpg error in opening zip file
+!SESSION 2013-11-25 16:07:44.063 -----------------------------------------------
+eclipse.buildId=4.3.0.M20130911-1000
+java.version=1.7.0_25
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -keyring /Users/sarapiette/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product -data /Users/sarapiette/Desktop/CS 110/CS110FinalProject -product org.eclipse.epp.package.jee.product -keyring /Users/sarapiette/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.core.net 1 0 2013-11-25 16:07:49.671
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.egit.ui 2 0 2013-11-25 16:07:58.132
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.

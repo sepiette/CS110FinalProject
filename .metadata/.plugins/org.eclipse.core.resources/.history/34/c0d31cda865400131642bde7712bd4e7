@@ -1,0 +1,189 @@
+import java.util.ArrayList;
+
+public class WarGame {
+
+	//Declare variables
+	private ArrayList<Card> userCards;
+	private ArrayList<Card> compCards;
+	private ArrayList<Card> warCards;
+	private Deck cardDeck;
+	private Card userCard, compCard;
+	/**
+	 * Default Constructor
+	 */
+	public WarGame()
+	{
+		userCards = new ArrayList<Card>();
+		compCards = new ArrayList<Card>();
+		warCards = new ArrayList<Card>();
+		cardDeck = new Deck();
+		
+		splitDeck();
+	}
+	
+	
+	//Divide deck between user and computer
+	/**
+	 * SplitDeck method splits the card deck in half between two players
+	 */
+	public void splitDeck()
+	{
+		
+		while(cardDeck.cardsLeft() != 0)
+		{
+			userCards.add(cardDeck.dealCard());
+			compCards.add(cardDeck.dealCard());
+		}
+	}
+	
+	//pop first card in each stack as flip of card
+	/**
+	 * flipCard method removes a card from each player's list and assigns to card object
+	 */
+	public void flipCard()
+	{
+		if (!userCards.isEmpty() && !compCards.isEmpty())
+		{
+			userCard = userCards.remove((userCards.size())-1);
+			compCard = compCards.remove((compCards.size())-1);
+			compareCards();
+		}
+		else if (userCards.isEmpty() && !compCards.isEmpty())
+		{
+			//Computer Wins
+			winner(false);
+		}
+		else if(!userCards.isEmpty() && compCards.isEmpty())
+		{
+			//User Wins
+			winner(true);
+		}
+		else if(userCards.isEmpty() && compCards.isEmpty())
+		{
+			throw new ListIndexOutOfBoundsException ("the arraylist is empty");
+		}
+		
+	}
+	/**
+	 * CompareCards method sees whether user or computer's deck has higher cards
+	 * if user or computer runs out of cards, opposite automatically wins
+	 * if users have equal cards, goes to a war
+	 */
+	private void compareCards()
+	{
+		//add cards to temporary array that will give all cards to winner
+		warCards.add(userCard);
+		warCards.add(compCard);
+		
+		//if cards are equal, a war ensues
+		if (userCard.equals(compCard))
+		{
+			war();
+		}
+		//else if the user's card is greater than the computers
+		//add all cards to user's card pile
+		else if (userCard.greaterThan(compCard)==true)
+		{
+			for(Card c: warCards)
+			{
+				userCards.add(0,c);
+			}
+		}
+		//else if the computer's card is greater than the user
+		//add all cards to computer's card pile
+		else 
+		{
+			for(Card c: warCards)
+			{
+				compCards.add(0,c);
+			}
+			
+		}
+	}
+	//War method
+	public void war()
+	{
+		
+		warCards.add(userCards.remove((userCards.size())-1));
+		warCards.add(compCards.remove((compCards.size())-1));
+		flipCard();
+		
+	}
+
+	/**
+	 * winner method checks to see if user wins or loses
+	 * @return boolean true if user wins and false if loses.
+	 */
+	public boolean winner(boolean winner)
+	{
+		boolean userWins;
+		if (winner == true)
+		{
+			userWins = true;
+			
+		}
+		else
+		{
+			userWins = false;
+		}
+		return userWins;
+	}
+	
+	/**
+	 * getUserCard method returns card object from user's pile
+	 * @return userCard object
+	 */
+	public Card getUserCard()
+	{
+		return userCard;
+	}
+	/**
+	 * getCompCard method returns card object from computer's pile
+	 * @return compCard object
+	 */
+	public Card getCompCard()
+	{
+		return compCard;
+	}
+	
+	
+	/**
+	 * 
+	 * @return Int number of cards left in user's deck
+	 */
+	public int getUserNumCards()
+	{
+		return userCards.size();
+	}
+	/**
+	 * 
+	 * @return Int number of cards left in computer's deck
+	 */
+	public int getCompNumCards()
+	{
+		return compCards.size();
+	}
+
+	
+	
+	
+	
+	public static void main(String [] args)
+	{
+		WarGame war = new WarGame();
+		
+		//System.out.println(war.getCompNumCards());
+		//System.out.println(war.getUserNumCards());
+		int count = 0;
+		for (int i = 0; i< 26; i++)
+		{
+			war.flipCard();
+			//System.out.println(war.getUserCard());
+			count += 1;
+			System.out.println(war.getCompCard());
+			//System.out.println(war.getCompCard().getIcon());
+			count+= 1;
+		}
+		System.out.println(count);
+	}
+}

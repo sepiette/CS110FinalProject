@@ -1,0 +1,15 @@
+import javax.swing.*;
+
+public class Tester {
+
+	public static void main(String[] args)
+	{
+		JFrame frame = new WarGameGUI();
+		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		frame.setSize(600,600);
+		frame.validate();
+		frame.setVisible(true);
+		
+	}
+		
+}
