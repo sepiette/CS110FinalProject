@@ -36,7 +36,7 @@ public class Card extends JFrame
    {
       suit = JOKER;
       rank = 0;
-      image = new ImageIcon("/Users/sarapiette/Desktop/CS 110/cardpics/joker.jpg");
+      image = new ImageIcon("images/joker.jpg");
    }
    
    /**
@@ -190,7 +190,10 @@ public class Card extends JFrame
          }
       }
    }
-   
+   /**
+    * cardImage assigns image to each card from the given filepath
+    * @return ImageIcon of image assigned to given card value
+    */
    private ImageIcon cardImage()
    {
 	   switch(suit)
@@ -201,55 +204,55 @@ public class Card extends JFrame
 	             {
 	                case 1: 
 	                {
-	                   return new ImageIcon("/Users/sarapiette/Desktop/CS 110/cardpics/acec.jpg"); 
+	                   return new ImageIcon("images/acec.jpg"); 
 	                }
 	                 case 2: 
 	                {
-	                	return new ImageIcon("/Users/sarapiette/Desktop/CS 110/cardpics/2c.jpg");
+	                	return new ImageIcon("images/2c.jpg");
 	                }
 	                 case 3: 
 	                {
-	                	return new ImageIcon("/Users/sarapiette/Desktop/CS 110/cardpics/3c.jpg");
+	                	return new ImageIcon("images/3c.jpg");
 	                }
 	                 case 4: 
 	                {
-	                	return new ImageIcon("/Users/sarapiette/Desktop/CS 110/cardpics/4c.jpg");
+	                	return new ImageIcon("images/4c.jpg");
 	                }
 	                 case 5: 
 	                {
-	                	return new ImageIcon("/Users/sarapiette/Desktop/CS 110/cardpics/5c.jpg");
+	                	return new ImageIcon("images/5c.jpg");
 	                }
 	                 case 6: 
 	                {
-	                	return new ImageIcon("/Users/sarapiette/Desktop/CS 110/cardpics/6c.jpg"); 
+	                	return new ImageIcon("images/6c.jpg"); 
 	                }
 	                 case 7: 
 	                {
-	                	return new ImageIcon("/Users/sarapiette/Desktop/CS 110/cardpics/7c.jpg");
+	                	return new ImageIcon("images/7c.jpg");
 	                }
 	                 case 8: 
 	                {
-	                	return new ImageIcon("/Users/sarapiette/Desktop/CS 110/cardpics/8c.jpg");
+	                	return new ImageIcon("images/8c.jpg");
 	                }
 	                 case 9: 
 	                {
-	                	return new ImageIcon("/Users/sarapiette/Desktop/CS 110/cardpics/9c.jpg");
+	                	return new ImageIcon("images/9c.jpg");
 	                }
 	                 case 10: 
 	                {
-	                	return new ImageIcon("/Users/sarapiette/Desktop/CS 110/cardpics/10c.jpg"); 
+	                	return new ImageIcon("images/10c.jpg"); 
 	                }
 	                 case 11: 
 	                {
-	                	return new ImageIcon("/Users/sarapiette/Desktop/CS 110/cardpics/jackc.jpg"); 
+	                	return new ImageIcon("images/jackc.jpg"); 
 	                }
 	                 case 12: 
 	                {
-	                	return new ImageIcon("/Users/sarapiette/Desktop/CS 110/cardpics/queenc.jpg"); 
+	                	return new ImageIcon("images/queenc.jpg"); 
 	                }
 	                 case 13: 
 	                {
-	                	return new ImageIcon("/Users/sarapiette/Desktop/CS 110/cardpics/kingc.jpg");  
+	                	return new ImageIcon("images/kingc.jpg");  
 	                }
 	             }
 	        }
@@ -259,55 +262,55 @@ public class Card extends JFrame
 	             {
 	                case 1: 
 	                {
-	                   return new ImageIcon("/Users/sarapiette/Desktop/CS 110/cardpics/aced.jpg"); 
+	                   return new ImageIcon("images/aced.jpg"); 
 	                }
 	                 case 2: 
 	                {
-	                	return new ImageIcon("/Users/sarapiette/Desktop/CS 110/cardpics/2d.jpg");
+	                	return new ImageIcon("images/2d.jpg");
 	                }
 	                 case 3: 
 	                {
-	                	return new ImageIcon("/Users/sarapiette/Desktop/CS 110/cardpics/3d.jpg");
+	                	return new ImageIcon("images/3d.jpg");
 	                }
 	                 case 4: 
 	                {
-	                	return new ImageIcon("/Users/sarapiette/Desktop/CS 110/cardpics/4d.jpg");
+	                	return new ImageIcon("images/4d.jpg");
 	                }
 	                 case 5: 
 	                {
-	                	return new ImageIcon("/Users/sarapiette/Desktop/CS 110/cardpics/5d.jpg");
+	                	return new ImageIcon("images/5d.jpg");
 	                }
 	                 case 6: 
 	                {
-	                	return new ImageIcon("/Users/sarapiette/Desktop/CS 110/cardpics/6d.jpg"); 
+	                	return new ImageIcon("images/6d.jpg"); 
 	                }
 	                 case 7: 
 	                {
-	                	return new ImageIcon("/Users/sarapiette/Desktop/CS 110/cardpics/7d.jpg");
+	                	return new ImageIcon("images/7d.jpg");
 	                }
 	                 case 8: 
 	                {
-	                	return new ImageIcon("/Users/sarapiette/Desktop/CS 110/cardpics/8d.jpg");
+	                	return new ImageIcon("images/8d.jpg");
 	                }
 	                 case 9: 
 	                {
-	                	return new ImageIcon("/Users/sarapiette/Desktop/CS 110/cardpics/9d.jpg");
+	                	return new ImageIcon("images/9d.jpg");
 	                }
 	                 case 10: 
 	                {
-	                	return new ImageIcon("/Users/sarapiette/Desktop/CS 110/cardpics/10d.jpg"); 
+	                	return new ImageIcon("images/10d.jpg"); 
 	                }
 	                 case 11: 
 	                {
-	                	return new ImageIcon("/Users/sarapiette/Desktop/CS 110/cardpics/jackd.jpg"); 
+	                	return new ImageIcon("images/jackd.jpg"); 
 	                }
 	                 case 12: 
 	                {
-	                	return new ImageIcon("/Users/sarapiette/Desktop/CS 110/cardpics/queend.jpg"); 
+	                	return new ImageIcon("images/queend.jpg"); 
 	                }
 	                 case 13: 
 	                {
-	                	return new ImageIcon("/Users/sarapiette/Desktop/CS 110/cardpics/kingd.jpg");  
+	                	return new ImageIcon("images/kingd.jpg");  
 	                }
 	             }
 	            
@@ -318,55 +321,55 @@ public class Card extends JFrame
 	             {
 	                case 1: 
 	                {
-	                   return new ImageIcon("/Users/sarapiette/Desktop/CS 110/cardpics/aceh.jpg"); 
+	                   return new ImageIcon("images/aceh.jpg"); 
 	                }
 	                 case 2: 
 	                {
-	                	return new ImageIcon("/Users/sarapiette/Desktop/CS 110/cardpics/2h.jpg");
+	                	return new ImageIcon("images/2h.jpg");
 	                }
 	                 case 3: 
 	                {
-	                	return new ImageIcon("/Users/sarapiette/Desktop/CS 110/cardpics/3h.jpg");
+	                	return new ImageIcon("images/3h.jpg");
 	                }
 	                 case 4: 
 	                {
-	                	return new ImageIcon("/Users/sarapiette/Desktop/CS 110/cardpics/4h.jpg");
+	                	return new ImageIcon("images/4h.jpg");
 	                }
 	                 case 5: 
 	                {
-	                	return new ImageIcon("/Users/sarapiette/Desktop/CS 110/cardpics/5h.jpg");
+	                	return new ImageIcon("images/5h.jpg");
 	                }
 	                 case 6: 
 	                {
-	                	return new ImageIcon("/Users/sarapiette/Desktop/CS 110/cardpics/6h.jpg"); 
+	                	return new ImageIcon("images/6h.jpg"); 
 	                }
 	                 case 7: 
 	                {
-	                	return new ImageIcon("/Users/sarapiette/Desktop/CS 110/cardpics/7h.jpg");
+	                	return new ImageIcon("images/7h.jpg");
 	                }
 	                 case 8: 
 	                {
-	                	return new ImageIcon("/Users/sarapiette/Desktop/CS 110/cardpics/8h.jpg");
+	                	return new ImageIcon("images/8h.jpg");
 	                }
 	                 case 9: 
 	                {
-	                	return new ImageIcon("/Users/sarapiette/Desktop/CS 110/cardpics/9h.jpg");
+	                	return new ImageIcon("images/9h.jpg");
 	                }
 	                 case 10: 
 	                {
-	                	return new ImageIcon("/Users/sarapiette/Desktop/CS 110/cardpics/10h.jpg"); 
+	                	return new ImageIcon("images/10h.jpg"); 
 	                }
 	                 case 11: 
 	                {
-	                	return new ImageIcon("/Users/sarapiette/Desktop/CS 110/cardpics/jackh.jpg"); 
+	                	return new ImageIcon("images/jackh.jpg"); 
 	                }
 	                 case 12: 
 	                {
-	                	return new ImageIcon("/Users/sarapiette/Desktop/CS 110/cardpics/queenh.jpg"); 
+	                	return new ImageIcon("images/queenh.jpg"); 
 	                }
 	                 case 13: 
 	                {
-	                	return new ImageIcon("/Users/sarapiette/Desktop/CS 110/cardpics/kingh.jpg");  
+	                	return new ImageIcon("images/kingh.jpg");  
 	                }
 	             }
 	            
@@ -377,62 +380,62 @@ public class Card extends JFrame
 	             {
 	                case 1: 
 	                {
-	                   return new ImageIcon("/Users/sarapiette/Desktop/CS 110/cardpics/aces.jpg"); 
+	                   return new ImageIcon("images/aces.jpg"); 
 	                }
 	                 case 2: 
 	                {
-	                	return new ImageIcon("/Users/sarapiette/Desktop/CS 110/cardpics/2s.jpg");
+	                	return new ImageIcon("images/2s.jpg");
 	                }
 	                 case 3: 
 	                {
-	                	return new ImageIcon("/Users/sarapiette/Desktop/CS 110/cardpics/3s.jpg");
+	                	return new ImageIcon("images/3s.jpg");
 	                }
 	                 case 4: 
 	                {
-	                	return new ImageIcon("/Users/sarapiette/Desktop/CS 110/cardpics/4s.jpg");
+	                	return new ImageIcon("images/4s.jpg");
 	                }
 	                 case 5: 
 	                {
-	                	return new ImageIcon("/Users/sarapiette/Desktop/CS 110/cardpics/5s.jpg");
+	                	return new ImageIcon("images/5s.jpg");
 	                }
 	                 case 6: 
 	                {
-	                	return new ImageIcon("/Users/sarapiette/Desktop/CS 110/cardpics/6s.jpg"); 
+	                	return new ImageIcon("images/6s.jpg"); 
 	                }
 	                 case 7: 
 	                {
-	                	return new ImageIcon("/Users/sarapiette/Desktop/CS 110/cardpics/7s.jpg");
+	                	return new ImageIcon("images/7s.jpg");
 	                }
 	                 case 8: 
 	                {
-	                	return new ImageIcon("/Users/sarapiette/Desktop/CS 110/cardpics/8s.jpg");
+	                	return new ImageIcon("images/8s.jpg");
 	                }
 	                 case 9: 
 	                {
-	                	return new ImageIcon("/Users/sarapiette/Desktop/CS 110/cardpics/9s.jpg");
+	                	return new ImageIcon("images/9s.jpg");
 	                }
 	                 case 10: 
 	                {
-	                	return new ImageIcon("/Users/sarapiette/Desktop/CS 110/cardpics/10s.jpg"); 
+	                	return new ImageIcon("images/10s.jpg"); 
 	                }
 	                 case 11: 
 	                {
-	                	return new ImageIcon("/Users/sarapiette/Desktop/CS 110/cardpics/jacks.jpg"); 
+	                	return new ImageIcon("images/jacks.jpg"); 
 	                }
 	                 case 12: 
 	                {
-	                	return new ImageIcon("/Users/sarapiette/Desktop/CS 110/cardpics/queens.jpg"); 
+	                	return new ImageIcon("images/queens.jpg"); 
 	                }
 	                 case 13: 
 	                {
-	                	return new ImageIcon("/Users/sarapiette/Desktop/CS 110/cardpics/kings.jpg");  
+	                	return new ImageIcon("images/kings.jpg");  
 	                }
 	             }
 	            
 	         }
 	         default:
 	         { 
-	            return new ImageIcon("/Users/sarapiette/Desktop/CS 110/cardpics/joker.jpg");
+	            return new ImageIcon("images/joker.jpg");
 	            
 	         }
 	   }

@@ -6,9 +6,9 @@ public class Deck
 
 	//Declare variables
 	//private Card [] deck;
-	private ArrayList<Card> deck;
-	private int usedCards;
-	private int cardCount;
+	private ArrayList<Card> deck;	//holds all the card objects needed to make a standard deck (with or without Jokers)
+	private int usedCards;	//keeps track of the cards used/dealt in a deck
+	private int cardCount;	//keeps track of total number of cards in deck
 	/**
 	 * Default Constructor.
 	 * Automatically excludes jokers from deck
@@ -55,6 +55,8 @@ public class Deck
 	
 	/**
 	 * Shuffle method randomizes order of cards in deck
+	 * serially goes through array list and replaces each card 
+	 * with a randomly chosen card from elsewhere in the deck
 	 */
 	public void shuffle()
 	{
@@ -82,7 +84,8 @@ public class Deck
 		}
 
 	}
-	//deal card method
+
+	
 	/**
 	 * dealCard method returns a card and increased the number of cards used by 1
 	 * @return Card object 
@@ -99,12 +102,18 @@ public class Deck
 			return deck.get(usedCards-1);
 		}
 	}
-	//get size method
+
+	
+	/**
+	 * size method give the number of cards in the deck
+	 * @return Int of size of ArrayList of deck
+	 */
 	public int size()
 	{
 		return cardCount;
 	}
-	//get card method
+
+	
 	/**
 	 * getCard method
 	 * @param index value to get specific card from
@@ -179,20 +188,4 @@ public class Deck
 		}
 	}
 	
-	
-
-	
-	/*public static void main(String [] args)
-	{
-		Deck cardDeck = new Deck(true);
-		Card c = new Card(1,2);
-		int cards;
-		System.out.println(cardDeck.size());
-		for (int i=cardDeck.cardsLeft(); i > 0; i--)
-		{
-			System.out.println(cardDeck.dealCard());
-			System.out.println(cardDeck.cardsLeft());
-		}
-			
-	}*/
 }
